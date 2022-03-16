@@ -24,4 +24,4 @@ RUN mkdir -p ./logs
 
 EXPOSE 3000
 
-CMD ["npm", "start:prod"]
+CMD ["npm", "run" ,"start:prod"]
