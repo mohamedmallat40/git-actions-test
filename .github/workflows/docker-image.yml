@@ -13,7 +13,7 @@ jobs:
     
     steps:
      - name: runinung tests
-  
+       run: echo "runing tests"
   
   build:
 
@@ -28,4 +28,5 @@ jobs:
     runs-on: ubuntu-lates
     steps:
      - name: deploy
+       run: echo "deploying"
       
